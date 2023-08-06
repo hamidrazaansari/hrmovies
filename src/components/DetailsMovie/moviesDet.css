@@ -1,0 +1,28 @@
+.img{
+    box-shadow: -52px -5px 46px 5px #17181a;
+    width: 591px;
+}
+.background{
+    height: 100vh;
+    position: absolute;
+    z-index: -9;
+    width: 100%;
+    opacity: 0.5;
+}
+
+
+.movieImg {
+    height: 90%;
+    width: 280px;
+    box-shadow: 7px 3px 36px 6px grey;
+    border-radius: 10px;
+    position: relative;
+    margin: 49px 0 0 79px;
+}
+.texts{
+    color: #000;
+
+}
+.Imgbox{
+    width: 35%!important;
+}

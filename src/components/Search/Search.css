@@ -1,0 +1,19 @@
+.search-box{
+    position: absolute;
+    /* height: 400px; */
+    background-color: #111111;
+    overflow-y: scroll;
+    z-index: 2;
+    padding: 0 10px;
+    line-height: 20px;
+}
+
+.search-box::-webkit-scrollbar{
+    display: none;
+}
+.cursor-pointer{
+    cursor: pointer !important;
+}
+.buttn{
+    margin-left: -44px;
+}

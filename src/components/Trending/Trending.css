@@ -1,0 +1,45 @@
+.Moviecard {
+    height: 280px;
+    width: 300px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.bttns{
+    height: 27px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+.moviecardImg {
+    height: 100%;
+    width: 165px;
+    border-radius: 10px;
+    position: relative;
+
+}
+.trending-row{
+    height: 430px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.trending-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width:792px) {
+    
+    .btns-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .btns-container::-webkit-scrollbar {
+        display: none;
+      }
+     
+  }
